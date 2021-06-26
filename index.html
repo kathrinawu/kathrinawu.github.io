@@ -78,7 +78,44 @@
               <p></p>
             </td>
           </tr> 
-    
+    	  <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
+                  <img src='images/video_pred.png' width="230"></div>
+                <img src='images/video_pred.png' width="230">
+              </div>
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://cqf.io/papers/Future_Video_Synthesis_With_Object_Motion_Prediction_CVPR2020.pdf">
+                <papertitle>Future Video Synthesis with Object Motion Prediction</papertitle>
+              </a>
+              <br>
+              <strong>Yue Wu</strong>,
+              Rongrong Gao,
+              Jaesik Park,
+              Qifeng Chen
+              <br>
+              <em>CVPR</em>, 2020  
+              <br>
+              <a href="https://cqf.io/papers/Future_Video_Synthesis_With_Object_Motion_Prediction_CVPR2020.pdf">Paper</a>
+            /
+              <a href="https://arxiv.org/abs/2004.00542">arXiv</a> 
+	      <br>
+              <a href="https://github.com/YueWuHKUST/FutureVideoSynthesis">Code</a>
+              <p></p>
+            </td>
+          </tr> 	
     
           <tr onmouseout="uflow_stop()" onmouseover="uflow_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
